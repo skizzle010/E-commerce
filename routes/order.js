@@ -54,7 +54,7 @@ router.get("/find/:id", verifyTokenAndAuthorization, async (req, res) => {
   }
 });
 
-// //Get All ordersp
+// //Get All orders
 router.get("/", verifyTokenAndAdmin, async (req, res) => {
   try {
     const orders = await Order.find();

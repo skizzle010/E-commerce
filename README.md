@@ -10,20 +10,41 @@
 
 ## Available Routes for Users 
 
-* /api/user/:id to update a existing user
-* /api/user/:id to delete a existing user
+* /api/user/:id to update or delete a existing user
 * /api/user/find/:id to find a existing user
 * /api/user/ to view all existing users 
 
 
-
 ## Available Routes for Authentication
 
-* /api/auth/ to get all blogs by the user
-* /blog/:id to get a blog by id
-* /blog/add to create a new blog
-* /blog/update/:id to update a blog by id
-* /blog/delete to delete a post
+* /api/auth/register to register a user
+* /api/auth/login to to login
+
+
+## Available Routes for Products
+* /api/product/ to create a product
+* /api/product/:id to update or delete a exsting product
+* /api/product/find/:id to find a existing product
+* /api/product/ to get all existing products
+
+
+## Available Routes for Orders
+* /api/order/ to create a order
+* /api/order/:id to update or delete a exsting order
+* /api/order/find/:id to find a existing order
+* /api/order/ to get all existing orders
+
+
+## Available Routes for cart
+* /api/cart/ to create a cart
+* /api/cart/:id to update or delete a exsting user cart
+* /api/cart/find/:id to find a existing user cart
+* /api/cart/ to get all existing user carts
+
+
+## Available routes for Stripe
+* /api/payment to get payment info
+
 
 ## Install
 
@@ -34,7 +55,7 @@ npm install
 ## Usage
 
 ```sh
-npm index.js
+npm app.js
 ```
 
 ## Author
