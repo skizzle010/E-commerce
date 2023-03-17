@@ -1,4 +1,4 @@
-# Welcome to E-commerce Backend👋
+# Welcome to ShopIt👋
 [![Version](https://img.shields.io/npm/v/backend-template.svg)](https://www.npmjs.com/package/backend-template)
 [![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](#)
 
